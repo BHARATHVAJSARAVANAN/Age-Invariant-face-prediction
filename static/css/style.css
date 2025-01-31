@@ -1,0 +1,126 @@
+.fot {
+  text-decoration: none;
+}
+
+.carousel-inner {
+  max-height: 500px;
+}
+.carousel-inner img {
+  max-height: 500px;
+  width: 1500px;
+}
+
+.image-grid {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-grid img {
+  height: 250px;
+  margin: 0 8px;
+  width: 200px;
+}
+
+.bold{
+    color: gold;
+
+}
+
+
+.gold:hover{
+    color: gold !important; 
+    border-color: gold !important;
+}
+
+.btn:hover {
+  color: gold;
+}
+
+#img1{
+  height: 400px;
+  width: 500px;
+  margin-left: 500px;
+}
+#text1{
+  padding-left: 200px;
+}
+
+.navbar-custom {
+  background-color: rgba(0, 0, 0, 0.2) !important;
+}
+/* Ensures the navigation links are on the right side */
+.navbar-nav {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+/* Optional: Adjust the spacing between the links */
+.navbar-nav .nav-link {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.nav-link {
+  margin-right: 50px;
+}
+/* Optional: Customize the appearance of the navbar */
+.navbar {
+  background-color: #f8f9fa; 
+  /* background-color: rgba(0, 0, 0, 0.2); */
+}
+
+
+/* Adjusts the brand logo and links alignment in smaller screens */
+@media (max-width: 991.98px) {
+  .navbar-nav {
+      text-align: right;
+  }
+}
+
+/* .grid-container { 
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); 
+  gap: 5px; 
+  margin-top: 20px;
+ 
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ddd;
+  padding: 5px;
+  border-radius: 8px;
+} */
+
+
+.grid-container { 
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  /* gap: 5px;  */
+  margin-top: 20px;
+ 
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: 1px solid #ddd; */
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.grid-item img {
+  width: 275px;  /* Fixed width */
+  height: 300px; /* Fixed height */
+  object-fit: cover; /* Ensure the image fits inside without distortion */
+}
+
+.card-body {
+  margin-top: 10px;
+}
